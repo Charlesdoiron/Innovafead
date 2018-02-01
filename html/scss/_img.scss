@@ -1,0 +1,154 @@
+/*HERO*/
+
+.bg-parallax.hero.parallax-overlay {
+    height: 500px;
+	padding-top: 10%;
+}
+
+/*PRODUCTS*/
+.products img, .our-ambition img{
+	width: 100%;
+}
+
+
+.products h4{
+	height: 40px;
+	margin-top: 30px;
+}
+
+/*CARDS*/
+.col-md-4 .entry-card {
+    padding: 0;
+}
+
+.products .entry-card, {
+    min-height: 540px ;
+    background-color: #fff;
+}
+@media (max-width: 992px){
+.products .entry-card, {
+    min-height: 630px ;
+    background-color: #fff;
+}
+}
+
+@media (max-width: 730px){
+.products .entry-card, {
+    min-height: 520px ;
+    background-color: #fff;
+}
+}
+.card{
+	background-color: transparent !important;
+}
+.card-content{
+	width: 100%;
+}
+
+
+
+
+/*OUR AMBITION*/
+
+.our-ambition h4{
+	height: 80px;
+}
+.our-ambition .entry-content{
+	padding: 36px 20px 0px 20px;
+}
+.products, .our-ambition{
+	.card-content{
+		padding: 0 20px 0 20px;
+	}
+}
+
+.our-ambition .col-md-3{
+	padding-left: 4px;
+	padding-right: 4px;
+}
+.our-ambition .entry-card {
+	min-height: 460px;
+	margin-bottom: 30px;
+	background-color: #fff;
+}
+
+/*VACANCIES*/
+.vacancies .entry-card{
+	padding:30px;
+}
+/*GENERAL*/
+.bg-white{
+	background-color: #FFF;
+}
+
+.btn-more{
+	margin-left: 30px;
+}
+.footer{
+	background-color: $blue-brand;
+	color: #FFF;
+	h3{
+		color: #FFF;
+	}
+	p, a{
+		color:rgba(255, 255, 255, 0.8);
+	}
+	
+}
+
+.no-rounded{
+border: 0 !important;
+}
+
+.texts .p{
+	text-transform: uppercase;
+}
+
+/*NAV*/
+
+.logo{
+	width: 100px;
+	position: absolute;
+	top: -6px;
+}
+
+.navbar-toggler-right {
+    position: absolute;
+    right: 0rem;
+    top: 6px;
+}
+.logo-partner {
+	width: 20%;
+}
+
+
+
+@media (min-width: 992px){
+.navbar.navbar-transparent.nav-sticky .navbar-brand .logo {
+    position: absolute;
+    top: -6px;
+}
+}
+@media (max-width: 992px){
+.collapse.show {
+    display: block;
+    margin-top: 10%;
+	transition: all 1s;
+	}
+}
+
+.texts{
+	padding: 0;
+}
+
+.contact-list-item li i{
+	border:none;
+	top: -3px,
+}
+
+.entry-card.insect{
+	padding-top: 40px;
+	min-height: 440px;
+	border-top: 3px solid $blue-brand;
+	border-radius: 3px;
+}
